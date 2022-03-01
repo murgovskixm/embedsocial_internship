@@ -25,7 +25,7 @@ function createCard(index) {
     element.appendChild(pic);
     let desc = document.createElement('div');
     desc.className = 'desc';
-    desc.innerHTML = "<p style = 'font-family: Calibri,serif'>" + jsonData[index].caption + "</p>";
+    desc.innerHTML = "<p style = 'font-family: Calibri,serif; text-overflow: ellipsis;'>" + jsonData[index].caption + "</p>";
     element.appendChild(desc);
     let heart = document.createElement('div');
     heart.className = 'heart';

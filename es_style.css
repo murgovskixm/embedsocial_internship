@@ -64,6 +64,7 @@ h1, footer {
 }
 .desc {
     grid-area: desc;
+    overflow: hidden;
 }
 .heart {
     grid-area: heart;
